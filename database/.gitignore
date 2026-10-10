@@ -1,0 +1,10 @@
+# Ignore SQLite database files (and their journals); keep the folder tracked.
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
