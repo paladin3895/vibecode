@@ -1,0 +1,55 @@
+<section class="currency-section" aria-labelledby="currency-{{CURRENCY_SLUG}}">
+  <h2 id="currency-{{CURRENCY_SLUG}}">{{CURRENCY_LABEL}}</h2>
+  <div class="cards" aria-label="Tổng quan {{CURRENCY_LABEL}}">
+    <article class="card"><div class="card-label">Tổng chi</div><p class="card-value expense">{{TOTAL_EXPENSES}}</p></article>
+    <article class="card"><div class="card-label">Tổng thu</div><p class="card-value income">{{TOTAL_INCOME}}</p></article>
+    <article class="card"><div class="card-label">Chênh lệch thu - chi</div><p class="card-value">{{NET_TOTAL}}</p></article>
+  </div>
+
+  <div class="grid">
+    <section>
+      <h2>Chi tiêu theo danh mục</h2>
+      <div class="chart">{{CATEGORY_CHART_SVG}}</div>
+    </section>
+    <section>
+      <h2>Xu hướng chi tiêu ({{BUCKET_INTERVAL}})</h2>
+      <div class="chart">{{DAILY_CHART_SVG}}</div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Nhận xét</h2>
+    <ul class="insights">{{INSIGHT_ITEMS}}</ul>
+  </section>
+
+  <section>
+    <h2>So sánh với {{COMPARISON_LABEL}}</h2>
+    <p>{{COMPARISON_SUMMARY}}</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Danh mục</th><th class="amount">Kỳ này</th><th class="amount">Kỳ so sánh</th><th class="amount">Thay đổi</th><th class="amount">Thay đổi (%)</th></tr></thead>
+        <tbody>{{COMPARISON_ROWS}}</tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tổng hợp theo danh mục</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Danh mục</th><th class="amount">Số giao dịch</th><th class="amount">Tổng chi</th><th class="amount">Tỷ trọng</th></tr></thead>
+        <tbody>{{CATEGORY_ROWS}}</tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Giao dịch trong kỳ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Ngày giờ</th><th>Danh mục</th><th>Mô tả</th><th class="amount">Thu</th><th class="amount">Chi</th></tr></thead>
+        <tbody>{{TRANSACTION_ROWS}}</tbody>
+      </table>
+    </div>
+  </section>
+</section>
