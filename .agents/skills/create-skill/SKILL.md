@@ -1,6 +1,6 @@
 ---
 name: create-skill
-description: Use when the user wants to create, draft, or package a reusable agent skill (SKILL.md) from a workflow, conversation, or idea. Works across AI agents (Copilot, Codex, Claude Code). Trigger phrases: "create a skill", "make a skill for", "turn this workflow into a skill", "package this as a SKILL.md", "new agent skill".
+description: 'Use when the user wants to create, draft, or package a reusable agent skill (SKILL.md) from a workflow, conversation, or idea. Works across AI agents (Copilot, Codex, Claude Code). Trigger phrases: "create a skill", "make a skill for", "turn this workflow into a skill", "package this as a SKILL.md", "new agent skill".'
 ---
 
 # Create Skill
