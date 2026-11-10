@@ -18,6 +18,10 @@ out to other notes from here as the project grows.
 - [[Resources/Resource Index|Resources]] — reference material, links, snippets
 - [[Archive/Archive Index|Archive]] — completed or stale notes
 
+## Current Ideas
+
+-
+
 ## How to Use This Vault
 
 - One idea per note; link liberally with `[[wikilinks]]`.
